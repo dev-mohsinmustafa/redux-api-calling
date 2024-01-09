@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Comments from './components/comments/comments';
+import LocalStorage from './components/localStorage/localStorage';
+import News from './components/news/news';
+import Todo from './components/todo/todo';
 
+import CallBackHook from './components/callBackHooks/callBackHook';
+import PasswordGenerator from './components/passwordGenerator/passwordGenerator';
+import CleanupFunction from './components/cleanupFunction/cleanupFunction';
+import ReverseString from './components/reverseString/reverseString';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <News /> */}
+
+      {/* <Comments /> */}
+
+
+      {/* Local Storage */}
+      <Todo />
+      <LocalStorage />
+
+
+      {/* <CallBackHook /> */}
+
+      {/* <PasswordGenerator /> */}
+
+      {/* <CleanupFunction /> */}
+
+      {/* <ReverseString /> */}
+
     </div>
   );
 }
